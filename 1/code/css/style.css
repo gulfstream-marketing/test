@@ -1,0 +1,30 @@
+@font-face{font-family:PFAgoraSlabPro;src:url(../fonts/pfagoraslabpro-black.eot);src:url(../fonts/pfagoraslabpro-black.eot?#iefix) format('embedded-opentype'),url(../fonts/pfagoraslabpro-black.woff2) format('woff2'),url(../fonts/pfagoraslabpro-black.woff) format('woff'),url(../fonts/pfagoraslabpro-black.ttf) format('truetype');font-weight:900;font-style:normal}
+@font-face{font-family:BebasNeueBold;src:url(../fonts/bebasneue_bold.eot);src:url(../fonts/bebasneue_bold.eot?#iefix) format('embedded-opentype'),url(../fonts/bebasneue_bold.woff2) format('woff2'),url(../fonts/bebasneue_bold.woff) format('woff'),url(../fonts/bebasneue_bold.ttf) format('truetype');font-weight:400;font-style:normal}
+@font-face{font-family:PFAgoraSlabPro;src:url(../fonts/pfagoraslabpro-bold.eot);src:url(../fonts/pfagoraslabpro-bold.eot?#iefix) format('embedded-opentype'),url(../fonts/pfagoraslabpro-bold.woff2) format('woff2'),url(../fonts/pfagoraslabpro-bold.woff) format('woff'),url(../fonts/pfagoraslabpro-bold.ttf) format('truetype');font-weight:700;font-style:normal}
+@font-face{font-family:PFAgoraSlabPro;src:url(../fonts/pfagoraslabpro-reg.eot);src:url(../fonts/pfagoraslabpro-reg.eot?#iefix) format('embedded-opentype'),url(../fonts/pfagoraslabpro-reg.woff2) format('woff2'),url(../fonts/pfagoraslabpro-reg.woff) format('woff'),url(../fonts/pfagoraslabpro-reg.ttf) format('truetype');font-weight:400;font-style:normal}
+*{margin:0;padding:0;box-sizing:border-box;background-position:50% 50%;background-repeat:no-repeat}
+::after,::before{content:" ";display:block;width:100%;height:0;clear:both}
+a::after,a::before,br::after,br::before,img::after,img::before,span::after,span::before,table::after,table::before,td::after,td::before,tr::after,tr::before{content:none}
+.wrap{position:relative;margin:0 auto;max-width:1120px;width:100%;height:100%;z-index:2}
+.section,section{width:100%;overflow:hidden;z-index:1;min-width:1120px;height:100vh}
+h1,h2,h3,h4,h5{font-size:1em;font-weight:inherit;text-align:center}
+body{font-family:PFAgoraSlabPro,sans-serif;font-weight:400;letter-spacing:.027em}
+a{text-decoration:none;color:inherit;outline:0!important}
+#s10 .cent-wrap{position:relative;z-index:0;pointer-events:stroke}
+.cent-wrap{position:absolute;width:100%;height:100%;max-height:800px;transform:translateY(-50%);top:50%;z-index:2;clear:both}
+.slise{position:absolute;left:0;width:100%}
+#s6s1{top:44%;margin-top:-192px}
+button,input,textarea{outline:0}
+#s6{color:#fff;text-align:center;background-image:url(../img/s6-bg.jpg);background-size:cover}
+.s6-slider .bx-viewport{z-index:1;overflow:visible!important}
+.s6-h3{text-shadow:rgba(0,0,0,.498039) 0 0 9px;color:#fff;font-size:40px;font-weight:900;line-height:47px}
+.s6-sld-p{text-shadow:rgba(0,0,0,.498039) 0 0 4px;font-size:28px;font-weight:400;line-height:32px;margin-top:8px;padding:10px;opacity:0;transition:all .5s}
+.s6-sld-act .s6-sld-p{opacity:1}
+.s6-sld-w{float:left;transition:all .5s;width:268px;opacity:1!important}
+.s6-sld-ul{list-style:none}
+.s6-slider{margin:49px auto 0;width:806px;position:relative;animation-delay:.7s}
+.s6-sld-img{width:188px;height:188px;transform:scale(.5);position:relative;display:inline-block;-webkit-filter:grayscale(1);transition:all .5s;cursor:pointer;background-size:contain}
+.s6-sld-img:hover{-webkit-filter:none}
+.s6-sld-act .s6-sld-img{transform:scale(1);-webkit-filter:none!important}
+.s6-sld-l{width:39px;height:90px;position:absolute;left:-85px;top:50%;margin-top:-90px;z-index:5;background-image:url(../img/s6-left.png)}
+.s6-sld-r{width:39px;height:90px;position:absolute;right:-85px;top:50%;margin-top:-90px;z-index:2;background-image:url(../img/s6-right.png)}
